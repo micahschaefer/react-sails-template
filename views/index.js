@@ -1,4 +1,4 @@
 var React = require('react');
-var TodoApp = require('./components/environment/TodoApp');
+var Router = require('./Router');
 
-React.render(<TodoApp />, document.getElementById('root'));
+React.render(<Router />, document.getElementById('root'));
